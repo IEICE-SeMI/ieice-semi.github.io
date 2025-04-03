@@ -3,7 +3,7 @@ layout: default
 ---
 
   <div class="home-announce">
-    <h1>これからの予定</h1>
+    <h1>研究会の開催予定</h1>
     {% assign announces = site.posts　| where_exp: "post", "post.categories contains 'announce'" %}
     <div>
       {% for post in announces %}
