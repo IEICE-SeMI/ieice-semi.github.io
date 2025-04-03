@@ -2,14 +2,24 @@
 layout: default
 ---
 
+  <div class="home-announce">
+    <h1>これからの予定</h1>
+    {% assign announces = site.posts　| where_exp: "post", "post.categories contains 'announce'" %}
+    <div>
+      {% for post in announces %}
+        {{ post.content }}
+      {% endfor %}
+    </div>
+  </div>
+
 <!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="content">
-    {{ post.content }}
+  {% assign event_posts = paginator.posts | where_exp: "post", "post.categories contains 'event'" %}
+  {% for post in event_posts %}
+  <div class="home-posts">
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <div class="content">
+      {{ post.content }}
+    </div>
   </div>
 {% endfor %}
 

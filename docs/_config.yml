@@ -28,7 +28,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-remote_theme: pages-themes/cayman@v0.2.0
+# remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
@@ -45,6 +45,10 @@ defaults:
       type: "posts"
     values:
       permalink: /posts/:year:month/index.html
+
+kramdown:
+  input: GFM
+  hard_wrap: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
