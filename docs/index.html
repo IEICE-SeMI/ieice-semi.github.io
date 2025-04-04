@@ -4,7 +4,7 @@ layout: default
 
   <div class="home-announce">
     <h1>研究会の開催予定</h1>
-    {% assign announces = site.posts　| where_exp: "post", "post.categories contains 'announce'" %}
+    {% assign announces = site.posts | where_exp: "post", "post.categories contains 'announce'" %}
     <div>
       {% for post in announces %}
         {{ post.content }}
@@ -24,23 +24,19 @@ layout: default
 {% endfor %}
 
 
------
 <!-- Pagination links -->
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-      ⇐ 前のページ
-    </a>
-  {% else %}
-    <span class="previous"></span>
-  {% endif %}
-  <span class="page_number ">
-    {{ paginator.page }} / {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">次のページ ⇒</a>
-  {% else %}
-    <span class="next "></span>
-  {% endif %}
+  
+    <a href="{{ paginator.previous_page_path }}" class="previous {% unless paginator.previous_page %}hidden{% endunless %}">&Lt;</a>  
+  <ul class="clearfix">
+  {% assign total_pages = site.posts.size | minus: 1 | times: 1.0 | divided_by: paginator.per_page | ceil %}
+  {% for i in (1..total_pages) %}
+    <li class="{% if i == paginator.page %}active{% endif %}">
+      <a href="{% if i == 1 %}{{ '/' | relative_url }}{% else %}{{ '/pages/' | append: i | relative_url }}{% endif %}">
+        {{ i }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+  <a href="{{ paginator.next_page_path }}" class="next {% if paginator.page == total_pages %}hidden{% endif %}">&Gt;</a>
 </div>
------
