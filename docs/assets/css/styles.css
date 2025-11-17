@@ -87,6 +87,11 @@ main.main-content h1 a {
   color: #028760;
 }
 
+main.main-content h1.page-title {
+  font-size: 2rem;
+  margin: 30px 0 0;
+}
+
 main.main-content div.content {
   padding: 20px 0;
   overflow-wrap: break-word;
@@ -103,6 +108,11 @@ main.main-content div.content h1 {
 main.main-content div.content h2 {
   margin: 20px 0 10px;
   font-size: 1.3rem;
+}
+
+main.main-content div.content h3 {
+  margin: 15px 0 10px;
+  font-size: 1.1rem;
 }
 
 main.main-content div.content p {
