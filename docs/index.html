@@ -26,8 +26,7 @@ layout: default
 
 <!-- Pagination links -->
 <div class="pagination">
-  
-    <a href="{{ paginator.previous_page_path }}" class="previous {% unless paginator.previous_page %}hidden{% endunless %}">&Lt;</a>  
+  <a href="{{ paginator.previous_page_path }}" class="previous {% unless paginator.previous_page %}hidden{% endunless %}">&Lt;</a>  
   <ul class="clearfix">
   {% assign total_pages = site.posts.size | minus: 1 | times: 1.0 | divided_by: paginator.per_page | ceil %}
   {% for i in (1..total_pages) %}
