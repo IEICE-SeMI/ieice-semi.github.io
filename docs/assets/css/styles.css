@@ -108,12 +108,17 @@ main.main-content div.content h1 {
 }
 
 main.main-content div.content h2 {
-  margin: 20px 0 10px;
+  margin: 25px 0 10px;
   font-size: 1.3rem;
 }
 
 main.main-content div.content h3 {
-  margin: 15px 0 10px;
+  margin: 20px 0 10px;
+  font-size: 1.1rem;
+}
+
+main.main-content div.content h4 {
+  margin: 10px 0 10px;
   font-size: 1.1rem;
 }
 
