@@ -29,6 +29,7 @@ permalink: /committee/
 # 幹事補佐
 - 永田 尚志（NTT）
 - Pham Van Thanh（静岡大学）
+- 小林 真（広島市立大学）
 
 ---
 
