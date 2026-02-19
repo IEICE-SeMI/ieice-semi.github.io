@@ -29,14 +29,31 @@
         <h3>研究会一覧</h3>
         <ul>
           {% for post in site.posts %}
+            {% if post.title != 'announce' %}
             <li>
               <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a>
             </li>
+            {% endif %}
           {% endfor %}
         </ul>
       </div>
-      <footer class="site-footer">
-        &copy; IEICE SeMI
+      <footer>
+        <ul>
+          <li><a href="/about">研究会について</a></li>
+          <li><a href="/policy">プライバシーポリシー</a></li>
+          <li><a href="/contact">問い合わせ</a></li>
+        </ul>
+        <div>
+          センサネットワークとモバイルインテリジェンス研究専門委員会（SeMI）<br>
+          Technical Committee on Sensor Networks and Mobile Intelligence (SeMI)<br>
+          semi-sec22[at]mail.ieice.org
+        </div>
+        <div>
+          <a href="https://www.ieice.org/">電子情報通信学会（Institute of Electronics, Information and Communication Engineers; IEICE）</a><br>
+          〒105-0011　東京都港区芝公園3-5-8 機械振興会館内 1F<br>
+          TEL：03-3433-6691 / FAX：03-3433-6659
+        </div>
+        <p>&copy; IEICE SeMI</p>
       </footer>
     </main>
   </body>

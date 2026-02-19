@@ -1,5 +1,9 @@
 *,*::before,*::after{box-sizing:border-box}html{-moz-text-size-adjust:none;-webkit-text-size-adjust:none;text-size-adjust:none}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role='list'],ol[role='list']{list-style:none}body{min-height:100vh;line-height:1.5}h1,h2,h3,h4,button,input,label{line-height:1.1}a:not([class]){text-decoration-skip-ink:auto;color:currentColor}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}textarea:not([rows]){min-height:10em}:target{scroll-margin-block:5ex}hr{height:0;margin:0;padding:0;border:0;}
 
+* {
+  font-feature-settings:"palt";
+}
+
 .clearfix::after {
    content: "";
    display: block;
@@ -267,10 +271,13 @@ main.main-content div.post-pagenation a.next {
 
 
 main.main-content footer {
-  text-align: center;
-  margin: 0 0 10px;
+  text-align: left;
+  margin: 40px 0 10px;
+  padding: 10px 10px 0;
   font-size: 0.8rem;
   color: #666;
+  border: 1px dashed #ccc;
+  border-width: 1px 0 0;
 }
 main.main-content footer a {
   text-decoration: none;
@@ -278,6 +285,27 @@ main.main-content footer a {
 main.main-content footer p, 
 main.main-content footer div {
   margin: 10px 0 0;
+}
+main.main-content footer ul {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  text-align: right;
+}
+main.main-content footer ul li {
+  display: inline-block;
+  list-style: none;
+}
+main.main-content footer ul li + li {
+  border-left: 1px solid #ccc;
+}
+main.main-content footer ul li a {
+  display: block;
+  padding: 0 10px;
+}
+main.main-content footer ul li a:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 
