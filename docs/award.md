@@ -21,10 +21,80 @@ SeMI研の前身である研究会での過去の受賞者はこちらをご参�
 
 -------
 
+# 2024年度 優秀発表賞
+
+## 年間最優秀発表賞
+
+- **池村優佑・寺杣颯斗・松川拓真・加藤空知・藤橋卓也（阪大）・村上友規（NTT）・渡辺　尚・猿渡俊介（阪大）**
+  Wi-Fiを用いた非侵襲検査に関する初期的検討
+  [SeMI2024-63](https://ken.ieice.org/ken/paper/20250123Fc73/)
+
+## 優秀発表賞
+
+- **上野貴弘（福山大）**
+  生体センシングを活用したハラスメント検出に関する研究
+  [SeMI2024-15](https://ken.ieice.org/ken/paper/20240717gcEJ/)
+
+- **岡田篤哉・小松和暉（豊橋技科大）・宮路祐一（愛知工大）・上原秀幸（豊橋技科大）**
+  二次元正規直交ラゲール多項式を用いた端末識別手法におけるWi-Fi端末での実験的評価
+  [SeMI2025-35](https://ken.ieice.org/ken/paper/20250731gclu/)
+
+- **朝田悠希・佐藤　俊・長江祥吾（慶大）・吉田裕志・金友　大（NEC）・久保亮吾（慶大）**
+  独立無線通信ロータ型UAVの飛行制御における制御モードの送信スケジューリング
+  [SeMI2024-39](https://ken.ieice.org/ken/paper/202411280cfQ/)
+
+- **Shengze Wang・Mondher Bouazizi・Ohtsuki Tomoaki（Keio Univ.）**
+  Remote RRI Estimation: A Signal Reconstruction Approach with Multi-channel Input and Channel-Wise Attention Mechanism
+  [SeMI2024-3](https://ken.ieice.org/ken/paper/20240516NcD0/)
+
+- **Zhihan CUI・Jiancheng CHI・Yuto LIM・Yasuo TAN（JAIST）**
+  Broad Learning System Scheme for Multi-server Wireless Networks
+  [SeMI2024-13](https://ken.ieice.org/ken/paper/20240717ocdr/)
+
+- **葛西彪斗・近藤瑛爽・南　由憲・小松和暉・上原秀幸（豊橋技科大）**
+  鉄筋自動配置システムの開発と配筋位置の推定
+  [SeMI2024-53](https://ken.ieice.org/ken/paper/20241129Ic5T/)
+
+- **宮下令央・田畑智志・石川正俊（東京理科大）**
+  Coarse-to-Fine位相同定のための階層化ArUcoマーカー配列
+  [SeMI2024-4](https://ken.ieice.org/ken/paper/20240517dc2O/)
+
+
+
+
+## 若手研究奨励賞
+
+- **池村優佑・寺杣颯斗・松川拓真・加藤空知・藤橋卓也（阪大）・村上友規（NTT）・渡辺　尚・猿渡俊介（阪大）**
+  Wi-Fiを用いた非侵襲検査に関する初期的検討
+  [SeMI2024-63](https://ken.ieice.org/ken/paper/20250123Fc73/)
+
+- **上野貴弘（福山大）**
+  生体センシングを活用したハラスメント検出に関する研究
+  [SeMI2024-15](https://ken.ieice.org/ken/paper/20240717gcEJ/)
+
+- **岡田篤哉・小松和暉（豊橋技科大）・宮路祐一（愛知工大）・上原秀幸（豊橋技科大）**
+  二次元正規直交ラゲール多項式を用いた端末識別手法におけるWi-Fi端末での実験的評価
+  [SeMI2025-35](https://ken.ieice.org/ken/paper/20250731gclu/)
+
+- **朝田悠希・佐藤　俊・長江祥吾（慶大）・吉田裕志・金友　大（NEC）・久保亮吾（慶大）**
+  独立無線通信ロータ型UAVの飛行制御における制御モードの送信スケジューリング
+  [SeMI2024-39](https://ken.ieice.org/ken/paper/202411280cfQ/)
+
+- **Shengze Wang・Mondher Bouazizi・Ohtsuki Tomoaki（Keio Univ.）**
+  Remote RRI Estimation: A Signal Reconstruction Approach with Multi-channel Input and Channel-Wise Attention Mechanism
+  [SeMI2024-3](https://ken.ieice.org/ken/paper/20240516NcD0/)
+
+- **葛西彪斗・近藤瑛爽・南　由憲・小松和暉・上原秀幸（豊橋技科大）**
+  鉄筋自動配置システムの開発と配筋位置の推定
+  [SeMI2024-53](https://ken.ieice.org/ken/paper/20241129Ic5T/)
+
+
+-------
+
 # 2023年度 優秀発表賞
 
 ## 年間最優秀発表賞
-- **松田 裕貴**  
+- **松田 裕貴（奈良先端大）**  
   書画カメラを用いた珠算行動センシング  
   [SeMI2023-16](https://ken.ieice.org/ken/paper/20230519FCtS/)
 

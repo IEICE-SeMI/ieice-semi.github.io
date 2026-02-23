@@ -135,6 +135,15 @@ main.main-content div.content p {
   line-height: 1.6rem;
 }
 
+main.main-content div.content ul li {
+  padding: 5px;
+  line-height: 1.6rem;
+}
+
+main.main-content div.content ul li p {
+  padding: 0;
+}
+
 main.main-content div.content del {
   color: #999;
 }
