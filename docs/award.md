@@ -19,6 +19,81 @@ SeMI研の前身である研究会での過去の受賞者はこちらをご参�
 - **若手研究奨励賞**  
   33歳未満の優れた若手による発表で、奨励される研究発想、斬新さを保持するもの  
 
+
+-------
+
+# 2025年度 優秀発表賞
+
+## 年間最優秀発表賞
+
+- **越川幸輝・蘇　悦・グエン キエン・関屋大雄（千葉大）**
+  分散型仮想座標系に基づいたピア選択によるIoTブロックチェーンの遅延低減
+  [SeMI2025-52](https://ken.ieice.org/ken/paper/20260122ocRK/)
+
+
+## 優秀発表賞
+
+- **大河知恵里・岡田　啓（名大）・和田忠浩（静岡大）・山里敬也・路　姍（名大）**
+  ディスプレイ-カメラ間可視光通信における反転フレームを用いた視覚品質及びデータレート向上
+  [SeMI2025-9](https://ken.ieice.org/ken/paper/20250522RcKc/)
+
+- **西田明浩・ファム ヴァン タイン・石原　進（静岡大）**
+  複数UAVの制御とビデオストリーミングのための双方向間欠的無線マルチホップ転送方式の実映像伝送による評価
+  [SeMI2025-22](https://ken.ieice.org/ken/paper/20250730Tclo/)
+
+- **福井菜月・平井健士（阪大）・飯塚達哉・遠藤直人・山本龍典・梅宮悠輔・松原浩史（NTT）・若宮直紀（阪大）**
+  海上センサネットワークにおける高度制御可能なバルーンと海上ブイ間通信の通信途絶の時空間解析
+  [SeMI2025-69](https://ken.ieice.org/ken/paper/202603011cti/)
+
+- **Yuta Fukiya・Ryoichi Shinkuma・Gabriele Trovato（SIT）**
+  Infrastructure-based multi-LiDAR tracking system for micro-mobility vehicles using deep-learning detection
+  [SeMI2025-23](https://ken.ieice.org/ken/paper/20250730iclP/)
+
+- **表具真衣・松田裕貴（岡山大）**
+  靴装着型センサデバイスを用いた競歩における反則判定手法の提案
+  [SeMI2025-56](https://ken.ieice.org/ken/paper/20260123tcRB/)
+
+
+## 若手研究奨励賞
+
+- **越川幸輝・蘇　悦・グエン キエン・関屋大雄（千葉大）**
+  分散型仮想座標系に基づいたピア選択によるIoTブロックチェーンの遅延低減
+  [SeMI2025-52](https://ken.ieice.org/ken/paper/20260122ocRK/)
+
+- **大河知恵里・岡田　啓（名大）・和田忠浩（静岡大）・山里敬也・路　姍（名大）**
+  ディスプレイ-カメラ間可視光通信における反転フレームを用いた視覚品質及びデータレート向上
+  [SeMI2025-9](https://ken.ieice.org/ken/paper/20250522RcKc/)
+
+- **西田明浩・ファム ヴァン タイン・石原　進（静岡大）**
+  複数UAVの制御とビデオストリーミングのための双方向間欠的無線マルチホップ転送方式の実映像伝送による評価
+  [SeMI2025-22](https://ken.ieice.org/ken/paper/20250730Tclo/)
+
+- **福井菜月・平井健士（阪大）・飯塚達哉・遠藤直人・山本龍典・梅宮悠輔・松原浩史（NTT）・若宮直紀（阪大）**
+  海上センサネットワークにおける高度制御可能なバルーンと海上ブイ間通信の通信途絶の時空間解析
+  [SeMI2025-69](https://ken.ieice.org/ken/paper/202603011cti/)
+
+- **Yuta Fukiya・Ryoichi Shinkuma・Gabriele Trovato（SIT）**
+  Infrastructure-based multi-LiDAR tracking system for micro-mobility vehicles using deep-learning detection
+  [SeMI2025-23](https://ken.ieice.org/ken/paper/20250730iclP/)
+
+- **表具真衣・松田裕貴（岡山大）**
+  靴装着型センサデバイスを用いた競歩における反則判定手法の提案
+  [SeMI2025-56](https://ken.ieice.org/ken/paper/20260123tcRB/)
+
+- **阿形航平（静岡大）・加藤新良太（スペースタイムエンジニアリング）・小川将克（上智大）・井家上哲史（明大）・髙井峰生（阪大）・石原　進（静岡大）**
+  VHF帯狭帯域IoT通信システムにおける異なる伝送速度のチャネル間干渉特性の実機評価とシミュレーションモデルへの適用
+  [SeMI2025-73](https://ken.ieice.org/ken/paper/20260301Pctj/)
+
+- **○矢田航大・澤瀬雅登・小松和暉・上原秀幸（豊橋技科大）**
+  歩行者自立航法と無線測位を統合した適応型カルマンフィルタによる屋内位置推定システムの開発
+  [SeMI2025-75](https://ken.ieice.org/ken/paper/20260302McSX/)
+
+- **○鳥垣耀平・松田裕貴（岡山大）**
+  表情や仕草データを用いた美術鑑賞者の心理状態推定手法の提案と評価
+  [SeMI2025-6](https://ken.ieice.org/ken/paper/20250522DcK5/)
+
+
+
 -------
 
 # 2024年度 優秀発表賞
